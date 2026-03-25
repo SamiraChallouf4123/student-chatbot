@@ -1,0 +1,54 @@
+{
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": ["Bonjour", "Salut", "Hello", "Bonsoir", "Hey"],
+      "responses": ["Bonjour ! Je suis ton assistant pour étudiants étrangers. Comment puis-je t'aider ?", "Salut ! Pose-moi tes questions sur les études à l'étranger."]
+    },
+    {
+      "tag": "visa",
+      "patterns": ["comment obtenir un visa", "visa étudiant", "demande de visa", "visa pour étudier", "titre de séjour"],
+      "responses": ["Pour un visa étudiant, tu dois : 1) Avoir une admission dans une université, 2) Remplir le dossier Campus France, 3) Passer un entretien consulaire. Tu veux plus de détails ?"]
+    },
+    {
+      "tag": "logement",
+      "patterns": ["où dormir", "logement étudiant", "résidence universitaire", "trouver un appartement", "cité universitaire", "CROUS"],
+      "responses": ["Pour le logement tu as plusieurs options : Résidence CROUS (la moins chère), résidence privée, colocation. Je te conseille de commencer les démarches 3 mois avant ton arrivée."]
+    },
+    {
+      "tag": "inscription",
+      "patterns": ["comment s'inscrire", "inscription université", "dossier d'inscription", "s'inscrire en France", "admission"],
+      "responses": ["Pour t'inscrire dans une université française : 1) Choisis ta formation sur Parcoursup ou directement sur le site de l'université, 2) Dépose ton dossier, 3) Attends la réponse d'admission."]
+    },
+    {
+      "tag": "bourse",
+      "patterns": ["bourse d'études", "aide financière", "financement études", "bourse Campus France", "comment avoir une bourse"],
+      "responses": ["Il existe plusieurs bourses pour étudiants étrangers : Bourse du gouvernement français (BGF), bourses Eiffel, bourses de ton pays d'origine. Consulte Campus France pour plus d'infos."]
+    },
+    {
+      "tag": "equivalence",
+      "patterns": ["équivalence diplôme", "reconnaître mon diplôme", "validation diplôme étranger", "équivalence bac"],
+      "responses": ["Pour l'équivalence de ton diplôme, contacte le ENIC-NARIC France. Tu peux aussi passer par Campus France qui aide dans cette démarche."]
+    },
+    {
+      "tag": "langue",
+      "patterns": ["niveau de français", "test de langue", "DELF", "DALF", "TCF", "niveau B2", "apprendre le français"],
+      "responses": ["La plupart des universités françaises exigent un niveau B2 minimum en français. Les tests reconnus sont : DELF, DALF, TCF. Prépare-toi au moins 6 mois avant."]
+    },
+    {
+      "tag": "sante",
+      "patterns": ["assurance maladie", "sécurité sociale", "mutuelle étudiant", "santé en France", "médecin"],
+      "responses": ["En France, tu as droit à la Sécurité Sociale étudiante. Inscris-toi à l'Assurance Maladie dès ton arrivée. Une mutuelle complémentaire est recommandée."]
+    },
+    {
+      "tag": "transport",
+      "patterns": ["carte de transport", "métro", "bus étudiant", "Navigo", "réduction transport étudiant"],
+      "responses": ["En tant qu'étudiant tu bénéficies de 50% de réduction sur les transports en commun. Demande la carte Imagine R ou le pass Navigo selon ta ville."]
+    },
+    {
+      "tag": "aurevoir",
+      "patterns": ["au revoir", "bye", "merci", "à bientôt", "ciao"],
+      "responses": ["Au revoir ! Bonne chance dans tes études 🎓", "À bientôt ! N'hésite pas à revenir si tu as d'autres questions."]
+    }
+  ]
+}
